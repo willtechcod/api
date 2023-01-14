@@ -40,3 +40,5 @@ Instalar o módulo para criptografar a senha
 
 Multer é middleware node.js para manipulação multipart/form-data, usado para manipular upload de arquivos
 ### npm install --save multer
+
+Criar uma pasta public/uploads/produtos na raiz do projeto.
