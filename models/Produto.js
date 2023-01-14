@@ -8,28 +8,28 @@ const Produto = db.define('produtos', {
         allowNull: false,
         primaryKey: true
     },
-    nome:{
+    nome: {
         type: Sequelize.STRING,
         allowNull: false,
     },
-    desc:{
+    desc: {
         type: Sequelize.STRING,
         allowNull: false
     },
-    preco:{
+    preco: {
         type: Sequelize.DOUBLE,
         allowNull: false,
     },
-    estoque:{
+    estoque: {
         type: Sequelize.STRING,
         allowNull: false,
     },
-    image:{
+    image: {
         type: Sequelize.STRING,
         allowNull: true,
     }
 });
 
-Produto.sync();
+//Produto.sync();
 
 module.exports = Produto;

@@ -28,6 +28,6 @@ const Usuario = db.define('usuarios', {
 
 });
 
-Usuario.sync();
+//Usuario.sync();
 
 module.exports = Usuario;
